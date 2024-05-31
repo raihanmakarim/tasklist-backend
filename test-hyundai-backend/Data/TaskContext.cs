@@ -7,7 +7,7 @@ namespace test_hyundai_backend.Data
     {
         public TaskContext(DbContextOptions<TaskContext> options) : base(options) { }
 
-        public DbSet<Task> Tasks { get; set; }
+        public DbSet<TaskList> TaskList { get; set; }
     }
 }
 
